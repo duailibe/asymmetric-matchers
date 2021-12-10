@@ -1,4 +1,8 @@
-# asymmetric_matchers
+# asymmetric-matchers
+
+[![CI](https://github.com/duailibe/asymmetric-matchers/actions/workflows/ci.yaml/badge.svg)](https://github.com/duailibe/asymmetric-matchers/actions/workflows/ci.yaml)
+[![PyPI](https://img.shields.io/pypi/v/asymmetric-matchers)](https://pypi.org/project/asymmetric-matchers)
+
 
 A collection of asymmetric matchers in Python for testing or general uses.
 
@@ -109,3 +113,7 @@ assert some_dict == dict_containing(
   ```python
   assert request_dict == dict_containing({"user_id": "abc123"})
   ```
+
+## License
+
+[Apache-2.0 License](./LICENSE)

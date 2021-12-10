@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/duailibe/asymmetric-matchers/actions/workflows/ci.yaml/badge.svg)](https://github.com/duailibe/asymmetric-matchers/actions/workflows/ci.yaml)
 [![PyPI](https://img.shields.io/pypi/v/asymmetric-matchers)](https://pypi.org/project/asymmetric-matchers)
+[![codecov](https://codecov.io/gh/duailibe/asymmetric-matchers/branch/main/graph/badge.svg?token=imWUVBB86f)](https://codecov.io/gh/duailibe/asymmetric-matchers)
 
 
 A collection of asymmetric matchers in Python for testing or general uses.

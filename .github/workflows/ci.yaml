@@ -38,3 +38,4 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install nox
       - run: nox -s test-${{ matrix.python-version }}
+      - uses: codecov/codecov-action@v2

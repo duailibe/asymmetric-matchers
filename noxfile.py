@@ -12,6 +12,4 @@ def lint(session: nox.Session):
 @nox.session(python=["3.6", "3.7", "3.8", "3.9", "3.10"])
 def test(session: nox.Session):
     session.install("-e", ".", "pytest", "pytest-cov")
-    session.run(
-        "pytest", "--cov=asymmetric_matchers", "--cov-report=xml", *session.posargs
-    )
+    session.run("pytest", *session.posargs)
